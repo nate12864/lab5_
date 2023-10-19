@@ -75,4 +75,3 @@ def plot_result(occurences_dict):
 log_list = put_file_in_a_list()
 results_dict = get_plot_contents(log_list)
 plot_result(results_dict)
-
