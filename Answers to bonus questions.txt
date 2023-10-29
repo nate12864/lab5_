@@ -1,0 +1,5 @@
+How could you compare this time, with time information captured on a computer with an NTP connection to the internet?
+The time from the internet is definitely a lot more accurate (about 30 000 000x more precise than the RTC). Comparing them would require a function that can access the internet to collect the time sample, but also a much higher amount of time to even see the lack of accuracy of time from the internet. It would take 1e12 seconds before a difference of just one second could appear.
+
+How long would your program to see these differences clearly?
+If we're only comparing the RTC with the python oscillator, at least 34k seconds would be necessary to notice the time from the oscillator starting to deviate. Then, it would take about 500k seconds to start to see that the time in the RTC is deviating. For the internet time, I said earlier that it would take 1e12 seconds.
